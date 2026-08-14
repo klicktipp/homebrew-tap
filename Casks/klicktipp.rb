@@ -5,7 +5,8 @@ cask "klicktipp" do
   sha256 arm:   "ebd408f7c1b1eccd50e4671858eb7dcb8cc863e7b51664c3e6e7cb31a05804e6",
          intel: "ae5d72064c31b716114042263d5585be0b0e4af82fe771acd3fcda4c5d573a85"
 
-  url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-#{arch}.zip"
+  url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-#{arch}.zip",
+      verified: "github.com/klicktipp/homebrew-tap/"
   name "KlickTipp CLI"
   desc "Command-line interface for KlickTipp"
   homepage "https://www.klicktipp.com/"
