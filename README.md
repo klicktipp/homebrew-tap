@@ -4,7 +4,16 @@ Official Homebrew tap and signed macOS releases for the KlickTipp CLI.
 
 ## Install
 
-Homebrew installation is temporarily unavailable while the macOS first-launch path is corrected.
+```sh
+brew install klicktipp/tap/klicktipp
+```
+
+To update an existing installation:
+
+```sh
+brew update
+brew upgrade --cask klicktipp
+```
 
 ## Commands
 
