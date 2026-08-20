@@ -28,6 +28,7 @@ klicktipp contact create [options]
 klicktipp contact update [options]
 klicktipp contact delete [options]
 klicktipp tag sync
+klicktipp email unsubscribe-attribution --timezone ZONE [options]
 ```
 
 Run `klicktipp --help` or append `--help` to a command for its current options.
