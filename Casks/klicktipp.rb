@@ -1,9 +1,9 @@
 cask "klicktipp" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.5.2"
-  sha256 arm:   "530b228aa0dc1b6df6a75e2753327f3f06103aa892e049664431a4939f4b1bc4",
-         intel: "3ed9be6123eac5696d5a523fda8192f2cfbdf91cd7ca51d10a1a0fb3492e8ca3"
+  version "0.6.0"
+  sha256 arm:   "74f12b7b4d1669f0e57f5f39530e850ee9abe35a16de1d7ce5721c0fd643ba82",
+         intel: "c11b51ab8a35575ce04007c126ca8f5859a3643fabbbff4f412768c059f163ea"
 
   url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-#{arch}.pkg",
       verified: "github.com/klicktipp/homebrew-tap/"
