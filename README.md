@@ -21,14 +21,17 @@ brew upgrade --cask klicktipp
 klicktipp login --username NAME
 klicktipp login status
 klicktipp logout
-klicktipp contact sync [--tag-id ID]
+klicktipp contact sync [--full [--yes] [--tag-id ID]]
 klicktipp contact sync status
 klicktipp contact search [options]
 klicktipp contact create [options]
 klicktipp contact update [options]
 klicktipp contact delete [options]
+klicktipp tag search [options]
 klicktipp tag sync
 klicktipp email unsubscribe-attribution --timezone ZONE [options]
+klicktipp newsletter content get [options]
+klicktipp newsletter content update [options]
 ```
 
 Run `klicktipp --help` or append `--help` to a command for its current options.
