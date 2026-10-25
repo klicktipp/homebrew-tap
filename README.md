@@ -18,20 +18,20 @@ brew upgrade --cask klicktipp
 ## Commands
 
 ```text
-klicktipp login --username NAME
-klicktipp login status
-klicktipp logout
-klicktipp contact sync [--full [--yes] [--tag-id ID]]
-klicktipp contact sync status
-klicktipp contact search [options]
-klicktipp contact create [options]
-klicktipp contact update [options]
-klicktipp contact delete [options]
-klicktipp tag search [options]
-klicktipp tag sync
-klicktipp email unsubscribe-attribution --timezone ZONE [options]
-klicktipp newsletter content get [options]
-klicktipp newsletter content update [options]
+  login                           Authenticate and store a CLI session
+  login status                    Validate the active CLI session and account
+  logout                          End sessions created by KlickTipp CLI login
+  contact sync                    Refresh the local contact mirror
+  contact sync status             Inspect the active or latest contact sync
+  contact search                  Search synchronized contacts
+  contact create                  Create or upsert one contact
+  contact update                  Update one contact
+  contact delete                  Permanently delete one contact
+  tag search                      Search synchronized tags and configuration
+  tag sync                        Refresh the local tag mirror
+  email unsubscribe-attribution   Report local unsubscribe attribution by email source
+  newsletter content get          Read one newsletter's BEE content manifest
+  newsletter content update       Apply one revision-bound patch to a newsletter draft
 ```
 
 Run `klicktipp --help` or append `--help` to a command for its current options.

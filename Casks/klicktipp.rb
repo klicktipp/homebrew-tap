@@ -1,11 +1,8 @@
 cask "klicktipp" do
-  arch arm: "arm64", intel: "amd64"
+  version "0.9.0"
+  sha256 "34584efe5a99439fdb0166ddffe164dfacf910780157b9a767667c5d87d66ddd"
 
-  version "0.8.0"
-  sha256 arm:   "67d3e374faf17e371b21de1ad479bb3bc31fcdd420f448fe2ba0774a6d0d9944",
-         intel: "d04edd85a99a38ef5233c92cafbf7bf1899596a07cf1969a7a7f935c2b39c424"
-
-  url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-#{arch}.pkg",
+  url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-universal.pkg",
       verified: "github.com/klicktipp/homebrew-tap/"
   name "KlickTipp CLI"
   desc "Command-line interface for KlickTipp"
@@ -13,7 +10,7 @@ cask "klicktipp" do
 
   depends_on macos: :monterey
 
-  pkg "klicktipp-#{version}-darwin-#{arch}.pkg"
+  pkg "klicktipp-#{version}-darwin-universal.pkg"
   binary "/Library/Application Support/KlickTipp/klicktipp"
 
   uninstall pkgutil: "^com[.]klicktipp[.]cli[.]pkg$"
