@@ -1,6 +1,6 @@
 cask "klicktipp" do
-  version "0.10.0"
-  sha256 "b335f69213983407accb025c747e715e3485f8bb8eb8078fc043b4b021422713"
+  version "0.11.0"
+  sha256 "c4b19d4d9b4c6d681c8587697d3add93cfa9c82aa45bfaa5d1f9e1d263d0703d"
 
   url "https://github.com/klicktipp/homebrew-tap/releases/download/v#{version}/klicktipp-#{version}-darwin-universal.zip"
   name "KlickTipp CLI"
